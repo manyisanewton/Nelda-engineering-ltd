@@ -1,6 +1,7 @@
 const logoSizes = {
   default: 'h-20',
   footer: 'h-28 md:h-32',
+  nav: 'h-16 sm:h-20 md:h-24 lg:h-28',
 }
 
 function Logo({ variant = 'default', size = 'default' }) {

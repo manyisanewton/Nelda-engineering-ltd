@@ -40,6 +40,14 @@ a {
     linear-gradient(120deg, #03224f 0%, var(--color-primary-deep) 45%, var(--color-primary) 100%);
 }
 
+.faq-hero {
+  background:
+    linear-gradient(120deg, var(--color-primary-deep) 0%, var(--color-primary) 52%, #064f96 100%),
+    url("/images/service hero background.png");
+  background-position: center;
+  background-size: cover;
+}
+
 .hero-collage-main,
 .hero-collage-card {
   position: absolute;

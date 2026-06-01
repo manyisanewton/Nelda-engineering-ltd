@@ -2,7 +2,7 @@ import { company } from '../data/siteData'
 
 function PageHero({ title, text, image, imageAlt }) {
   return (
-    <section className="relative overflow-hidden bg-[var(--color-primary)] px-5 pb-56 pt-96 text-white lg:px-8">
+    <section className="relative overflow-hidden bg-[var(--color-primary)] px-5 pb-28 pt-36 text-white md:pb-56 md:pt-96 lg:px-8">
       {image ? (
         <>
           <img
